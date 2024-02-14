@@ -4,14 +4,22 @@
   "private": true,
   "homepage": "https://alexandrvorontsov.github.io/rental-car/",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@reduxjs/toolkit": "^2.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
     "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
     "react-toastify": "^10.0.4",
     "redux-persist": "^6.0.0",
     "web-vitals": "^2.1.4"
@@ -39,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
