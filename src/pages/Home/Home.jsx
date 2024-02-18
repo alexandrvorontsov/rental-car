@@ -1,9 +1,11 @@
-import { Button, Text, Wrapper } from "./Home.styled";
+import { Button, Text, Wrapper, Hero } from "./Home.styled";
 
 export default function Home() {
   return (
     <Wrapper>
-      <h1>New Car Rental in Ukraine with Address Delivery within an Hour</h1>
+      <Hero>
+        New Car Rental in Ukraine with Address Delivery within an Hour
+      </Hero>
       <Text>
         Car rental is the best way to move around million-strong cities
         regardless of the time of year. RENTAL company provides car rental
@@ -15,7 +17,7 @@ export default function Home() {
         car on our website, you choose the specific model, not the class of the
         car.
       </Text>
-      <Button to={"/catalog"}>Rental Cars</Button>
+      <Button to={"/catalog"}>Rental cars</Button>
     </Wrapper>
   );
 }
