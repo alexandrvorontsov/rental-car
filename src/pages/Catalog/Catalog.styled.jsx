@@ -32,8 +32,8 @@ export const LoadMore = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   cursor: pointer;
   &:hover {
     color: #0b44cd;

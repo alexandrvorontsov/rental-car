@@ -120,7 +120,7 @@ export default function Catalog() {
         ) : allCars.length > 0 ? (
           allCars.map((car, index) => <CarItem key={index} data={car} />)
         ) : null}
-        {!isFiltering && data && data.length >= 3 && (
+        {!isFiltering && data && data.length >= 12 && (
           <LoadMore variant="text" onClick={loadMore} disabled={isFetching}>
             Load more
           </LoadMore>

@@ -15,6 +15,7 @@ export const WrapperList = styled.ul`
   justify-content: center;
   gap: 50px 29px;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 1184px;
   margin-left: auto;
   margin-right: auto;
