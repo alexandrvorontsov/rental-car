@@ -32,7 +32,7 @@ Create an application for a company providing car rental services in Ukraine. Th
 
 3.Include a group of input fields for defining the mileage range within which the user will search for advertisements.
 
-### Criteria for Completion
+#### Criteria for Completion
 
 1.The layout is fixed in pixels, semantic, and valid.
 
@@ -52,6 +52,6 @@ Create an application for a company providing car rental services in Ukraine. Th
 
 9.The project is deployed on GitHub Pages or netlify.com.
 
-#### Test project in my github pages
+##### Test project in my github pages
 
 https://alexandrvorontsov.github.io/rental-car
