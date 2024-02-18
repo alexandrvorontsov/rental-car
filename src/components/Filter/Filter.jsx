@@ -13,7 +13,6 @@ import {
 } from "./Filter.styled";
 
 import { useState } from "react";
-import { toast } from "react-toastify";
 import Button from "components/Button/Button";
 
 export default function Filter({ makes, prices, onFilterChange }) {
@@ -56,7 +55,7 @@ export default function Filter({ makes, prices, onFilterChange }) {
       parseInt(minValue.replace(/,/g, ""), 10) >
       parseInt(maxValue.replace(/,/g, ""), 10)
     ) {
-      toast.error("The maximum mileage must exceed the minimum mileage.");
+      <div>"The maximum mileage must exceed the minimum mileage."</div>;
       return;
     }
 
