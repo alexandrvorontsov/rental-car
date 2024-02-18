@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Test task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create an application for a company providing car rental services in Ukraine. The application consists of 3 pages:
 
-## Available Scripts
+1.Home page with a general description of the services provided by the company. Styling and design are at your discretion.
 
-In the project directory, you can run:
+2.A page containing a catalog of cars with different configurations that the user can filter by brand, hourly rental price, and the number of kilometers the car has traveled (mileage).
 
-### `npm start`
+3.A page with user-added advertisements in favorites. The appearance of the program should consist of navigation (design at your discretion) and a viewing area.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical specification
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.Implement an advertisement card for renting a car according to the layout. On the first page of the catalog, 12 advertisements should be rendered, and the rest should load upon clicking the "Load more" button.
 
-### `npm test`
+3.When clicking the heart-shaped button on the advertisement card, it should be added to the favorites list, and the button color should change. The final user actions should be preserved when refreshing the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.If the heart button is clicked again, the advertisement should be removed from the favorites list, and the button color should revert to the initial state.
 
-### `npm run build`
+5.Clicking the "Learn more" button should open a modal window with detailed information about the car and its rental conditions. The modal window should close when clicking the close button (X), clicking on the backdrop, or pressing the Esc key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6.In the code, the car's mileage should be specified as a single value (e.g., 4500), but in the UI, it should be displayed with commas (4,500).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7.Implement the "Rental car" button as a link that allows the user to contact the company via the phone number +380730000000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8.Add filtering with a dropdown for car brands based on makes.json. Show advertisements with cars of the selected brand.
 
-### `npm run eject`
+### Additional Task - Filtering
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.Implement a dropdown with car brands based on makes.json - show advertisements with cars of the selected brand.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.Add an additional dropdown for hourly rental prices (with a $10 step) - show advertisements with cars whose rental price falls within the user-selected price range.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.Include a group of input fields for defining the mileage range within which the user will search for advertisements.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Criteria for Completion
 
-## Learn More
+1.The layout is fixed in pixels, semantic, and valid.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2.Mandatory use of Redux.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.Utilize the Axios library for making requests.
 
-### Code Splitting
+4.Pagination is implemented on the backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5.No errors in the browser console.
 
-### Analyzing the Bundle Size
+6.Interactivity works according to the technical specification.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7.The code is formatted and does not contain unused code.
 
-### Making a Progressive Web App
+8.The repository includes a descriptive README.md.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9.The project is deployed on GitHub Pages or netlify.com.
