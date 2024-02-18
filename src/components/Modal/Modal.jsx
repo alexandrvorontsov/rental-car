@@ -57,7 +57,7 @@ export default function BasicModal({ open, onClose, data }) {
               <List>
                 <Item>{data.address.split(",")[1]}</Item>
                 <Item>{data.address.split(",")[2]}</Item>
-                <Item>Id: </Item>
+                <Item>Id: {data.id}</Item>
                 <Item>Year: {data.year}</Item>
                 <Item>Type: {data.type}</Item>
               </List>
