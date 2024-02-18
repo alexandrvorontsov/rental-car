@@ -51,3 +51,7 @@ Create an application for a company providing car rental services in Ukraine. Th
 8.The repository includes a descriptive README.md.
 
 9.The project is deployed on GitHub Pages or netlify.com.
+
+#### Test project in my github pages
+
+https://alexandrvorontsov.github.io/rental-car
