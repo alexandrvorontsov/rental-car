@@ -33,7 +33,7 @@ export default function Favorites() {
               <CarItem key={index} data={favorite} />
             ))
           ) : (
-            <Text>Your favorites are currently empty...</Text>
+            <Text>Your favorites are currently empty.</Text>
           )}
           {favoriteCars.favorites.length > cars.length && (
             <LoadMore variant="text" onClick={loadMore}>

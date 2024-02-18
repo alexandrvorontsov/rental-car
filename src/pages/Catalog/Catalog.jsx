@@ -114,7 +114,7 @@ export default function Catalog() {
             <div>No matches found based on the chosen criteria.</div>
           )
         ) : error ? (
-          <>Oops, there was an error...</>
+          <>Oops, there was an error.</>
         ) : isLoading ? (
           <Loader />
         ) : allCars.length > 0 ? (

@@ -107,7 +107,7 @@ export default function BasicModal({ open, onClose, data }) {
               width="168px"
               type="button"
               onClick={() => {
-                window.location.href = "tel:+380730000000";
+                window.location.href = "https://rental.ua/ua";
               }}
             />
           </Wrapper>
