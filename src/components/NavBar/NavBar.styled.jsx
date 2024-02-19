@@ -8,7 +8,7 @@ export const Header = styled.header`
   justify-content: center;
 
   width: 100%;
-  background-color: #f3f3f2;
+  background-color: #ffffff;
 `;
 
 export const Nav = styled.nav`
