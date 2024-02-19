@@ -4,9 +4,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 128px;
-  padding-right: 128px;
-  padding-top: 60px;
 `;
 
 export const WrapperList = styled.ul`
